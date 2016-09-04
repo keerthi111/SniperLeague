@@ -1,0 +1,41 @@
+|================================================================================================================|
+
+How to run the game :
+	1. first run the make file
+	2. An interactive GUI opens which asks for server details in case you join other game.
+	3. In case you host the game, it asks for game details and server port.
+	4. Enter the details and enjoy!
+
+|================================================================================================================|
+1st window:
+	Enter user name
+
+2nd window:
+	Choose whether you want to host a new game or join existing games
+
+3rd window:
+	HOST:
+		Select number of players and AI bots	
+		Enter port number
+		Click on start
+	JOIN:
+		Enter server ip
+		Enter server port number
+		Enter your port number
+
+ENJOY!!
+
+|================================================================================================================|
+
+LATEX:
+to generate pdf 'make doc'
+to view pdf 'make view'
+
+|================================================================================================================|
+DEBUG:
+
+make debug to debug entire game
+make debugmain to debug GUI of game
+make debugnet to debug network of game
+
+|================================================================================================================|
